@@ -1,0 +1,8 @@
+version: "3"
+services:
+   doc:
+     image: registry.docker-cn.com/star7th/showdoc
+     volumes:
+     - "./showdoc_data/html:/var/www/html/"
+     ports:
+     - "8080:80"
